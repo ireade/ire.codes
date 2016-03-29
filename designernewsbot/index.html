@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Slack + Designer News</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Get Stories from Designer News Directly to Slack">
+	<meta name="keywords" content="">
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ireaderinokun">
+	<meta name="twitter:creator" content="@ireaderinokun">
+	<meta name="twitter:title" content="Slack + Designer News">
+	<meta name="twitter:description" content="Get Stories from Designer News Directly to Slack">
+	<meta name="twitter:image" content="img/screenshot.png">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	
+	<section class="hero-header">
+		<h1 class="site-title">Slack + Designer News</h1>
+
+		<div class="section-left">
+			<img src="img/logo-slack.png" class="slack-logo">
+		</div>
+		<div class="section-right">
+			<img src="img/logo-dn.png"  class="dn-logo">
+		</div>
+	
+		<p class="twitter-share">
+			<a class="twitter-share-button"
+		      href="https://twitter.com/share"
+		      data-text="Slack + Designer News. Get Stories from Designer News Directly to Slack"
+		      data-url="http://ire.codes/designernewsbot"
+		      data-via="ireaderinokun"
+		      data-related="ireaderinokun"> Tweet </a>
+		</p>
+	</section>
+
+
+	<div class="body-container">
+		<section class="demo-section">
+			<div class="video-container">
+				<h2 class="section-title">Get Stories from Designer News Directly to Slack</h2>
+				<img class="demo" src="img/demo.gif" alt="KhaledBot Demo">
+			</div>	
+		</section>
+
+		<div class="container">
+			<img src="img/arrow.png" class="arrow">
+			<section class="site-section ats-section">
+				<a href="" class="no-ul">
+					<img alt="Add to Slack" src="img/ats.png">
+				</a>
+			</section>
+
+			<footer class="site-footer">
+				Created by <a href="https://twitter.com/ireaderinokun">@IreAderinokun</a>
+			</footer>
+		</div>
+
+	</div>
+
+
+	<script>
+    window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+    </script> 
+    <script type="text/javascript">
+	    window.addEventListener("scroll", function() {
+			var t = window.scrollY;
+
+			var change = (t/2) + 40;
+			document.getElementsByClassName('slack-logo')[0].style.marginRight = change + "px";
+			document.getElementsByClassName('dn-logo')[0].style.marginLeft = change + "px";
+
+			var topChange = -( (t/2) + 150);
+			document.getElementsByClassName('site-title')[0].style.marginTop = topChange + "px";
+
+			var opacityChange = 1 - t/300;
+			document.getElementsByClassName('slack-logo')[0].style.opacity = opacityChange;
+			document.getElementsByClassName('dn-logo')[0].style.opacity = opacityChange;
+			document.getElementsByClassName('site-title')[0].style.opacity = opacityChange;
+		});
+    </script>
+
+</body>
+</html>
