@@ -126,6 +126,7 @@ h1 {
 
 p.tagline {
 	font-size: 2.5rem;
+	/*color: #da552f;*/
 }
 
 
@@ -152,13 +153,13 @@ p.tagline {
 	/*max-width: 500px;*/
 }
 
-img {
-	width: 85%;
-	max-width: 200px;
-}
 
 h1 {
 	margin-top: -20px;
+}
+
+.site-footer {
+	margin-top: 30px;
 }
 
 
@@ -173,7 +174,7 @@ section.top {
 
 .triangle {
 	position: absolute;
-	top: 0;
+	top: -2;
 	width: 1500px;
 }
 
@@ -191,9 +192,14 @@ section.middle {
 
 }
 
-.demo video {
+.demo img {
 	width: 100%;
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+.demo video {
+    width: 100%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 section.bottom {
