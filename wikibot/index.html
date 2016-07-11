@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wiki Bot</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '612535172235667',
+				xfbml      : true,
+				version    : 'v2.6'
+			});
+		};
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = 'http://connect.facebook.net/en_US/sdk.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<div class="wrapper">
+		
+		<header class="site-header">
+			<h1><img src="assets/logo.png" alt="WikiBot" class="site-logo"></h1>
+
+			<p class="tagline">A Facebook Messenger Bot for Wikipedia. Easily search through Wikipedia articles and get quick information.</p>
+		</header>
+
+		<div class="preview">
+			<img src="assets/phone.png" alt="Preview">
+		</div>
+
+		<div class="cta">
+			<div class="fb-send-to-messenger" 
+					messenger_app_id="612535172235667" 
+					page_id="246322469053918" 
+					data-ref="PASS_THROUGH_PARAM" 
+					color="blue" 
+					size="xlarge">
+			</div>  
+		</div>
+
+		<footer class="site-footer">
+			
+
+			<p class="contact">
+				Created by <a href="">Ire Aderinokun</a> <br>
+				Created for the SitePoint Premium Course, <a href="">"How to Create"</a>
+			</p>
+		</footer>
+
+	</div>
+
+
+
+</body>
+</html>

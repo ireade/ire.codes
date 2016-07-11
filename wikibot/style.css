@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/* */
+
+@font-face {
+    font-family: 'Proxima N';
+    src: url('font/pn-light-reg.eot');
+    src: url('font/pn-light-reg?#iefix') format('embedded-opentype'),
+         url('font/pn-light-reg.woff') format('woff'),
+         url('font/pn-light-reg.ttf') format('truetype'),
+         url('font/pn-light-reg.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima N';
+    src: url('font/pn-sbold-reg.eot');
+    src: url('font/pn-sbold-reg?#iefix') format('embedded-opentype'),
+         url('font/pn-sbold-reg.woff') format('woff'),
+         url('font/pn-sbold-reg.ttf') format('truetype'),
+         url('font/pn-sbold-reg.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* ---------------*/
+
+
+
+html {
+    font-size: 62.5%;
+
+}
+body {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-family: 'Proxima N', sans-serif;
+    color: #000;
+
+    background-color: rgba(213, 152, 185, 0.2);
+
+}
+
+a {
+    color: inherit; 
+    text-decoration: underline;
+}
+
+
+
+small {
+	font-size: 1.4rem;
+	display: block;
+}
+strong {
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+/* */
+
+.wrapper {
+	margin: 50px auto 150px;
+	width: 80%;
+	max-width: 500px;
+	position: relative;
+
+	text-align: center;
+}
+
+.site-header {
+	margin-bottom: 50px;
+}
+
+.site-logo {
+	width: 50%;
+	max-width: 250px;
+	margin-bottom: 20px;	
+}
+
+.tagline {
+	font-size: 1.8rem;
+}
+
+
+
+
+.preview img {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.cta {
+	background: rgba(255,255,255,0.95);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+}
+
+.site-footer {
+	margin-top: 50px;
+}
+
+
+
+
